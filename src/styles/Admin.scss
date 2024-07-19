@@ -1,0 +1,44 @@
+#admin {
+  position: absolute;
+  top: 200%;
+  left: 35%;
+  z-index: 10;
+  .admin {
+    width: 600px;
+    height: 360px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    gap: 40px;
+    border-radius: 8px;
+    h3 {
+      position: absolute;
+      top: 10px;
+      font-size: 26px;
+      color: rgba(1, 0, 73, 1);
+      right: 20px;
+    }
+    input {
+      font-size: 32px;
+      font-weight: 400;
+      border: 2px solid rgba(1, 0, 73, 1);
+      outline: none;
+      padding: 5px 10px;
+    }
+    button {
+      font-size: 22px;
+      font-weight: 600;
+      letter-spacing: 0.165em;
+      width: 321px;
+      height: 51px;
+      color: white;
+      font-weight: 600;
+      background: rgba(1, 0, 73, 1);
+      border: none;
+      border-radius: 9px;
+    }
+  }
+}

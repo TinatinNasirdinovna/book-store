@@ -1,0 +1,95 @@
+#header {
+  padding: 30px 0;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  background: rgba(1, 0, 73, 1);
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    a {
+      color: white;
+    }
+    &--valuta {
+      width: 100px;
+      padding-left: 10px;
+      height: 30px;
+      font-size: 18px;
+      border-radius: 12px;
+      border: none;
+      background: none;
+      color: white;
+      option {
+        background: none;
+        border-radius: 12px;
+        color: black;
+      }
+    }
+    &--nav {
+      display: flex;
+      align-items: center;
+      gap: 60px;
+      &__search {
+        position: relative;
+        input {
+          width: 399px;
+          height: 55px;
+          border-radius: 8px;
+          border: none;
+          outline: none;
+          padding: 10px 30px;
+          font-size: 16px;
+        }
+        span {
+          position: absolute;
+          font-size: 26px;
+          color: grey;
+          top: 15px;
+          left: 65%;
+        }
+        &--btn {
+          padding: 15px 30px;
+          margin-left: 20px;
+          border-radius: 12px;
+          border: none;
+          outline: none;
+          font-size: 18px;
+        }
+      }
+      &__icons {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        &--basket {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+          font-weight: 600;
+          font-size: 14px;
+        }
+        &--admin {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+          font-weight: 600;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  .bg {
+    backdrop-filter: blur(5px);
+    background-color: #ffffffad;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+    min-height: 100vh;
+  }
+}

@@ -1,0 +1,68 @@
+#bookDetails {
+  padding: 50px 0;
+  .bookDetails {
+    display: flex;
+    gap: 60px;
+    align-items: flex-start;
+    img {
+      width: 600px;
+      height: 600px;
+      border-radius: 12px;
+    }
+    &--content {
+      h1 {
+        font-size: 32px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+      }
+      span {
+        font-size: 28px;
+        font-weight: 500;
+      }
+      h2 {
+        font-size: 20px;
+        font-weight: 400;
+        margin: 20px 0;
+      }
+      &__btns {
+        display: flex;
+        align-items: center;
+        button {
+          width: 60px;
+          background: rgba(1, 0, 73, 1);
+          height: 30px;
+          color: white;
+          font-size: 22px;
+        }
+        span {
+          font-size: 32px;
+          width: 40px;
+          border: 1px solid rgba(1, 0, 73, 1);
+          height: 30px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+      h4 {
+        margin: 50px 0 20px 0;
+        font-size: 22px;
+        color: rgba(61, 61, 61, 1);
+      }
+      p {
+        font-size: 16px;
+        color: rgba(61, 61, 61, 1);
+      }
+      &__addBasket {
+        width: 271px;
+        display: block;
+        margin: 30px 0;
+        height: 51px;
+        font-size: 18px;
+        font-weight: 600;
+        border: 3px solid rgba(1, 0, 73, 1);
+        color: rgba(1, 0, 73, 1);
+      }
+    }
+  }
+}

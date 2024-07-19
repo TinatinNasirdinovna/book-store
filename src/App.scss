@@ -1,0 +1,28 @@
+@import "../src/styles/Admin.scss";
+@import "../src/styles/Header.scss";
+@import "../src/styles/Hero.scss";
+@import "../src/styles/Basket.scss";
+@import "../src/styles/Search.scss";
+@import "../src/styles/AddProduct.scss";
+@import "../src/styles/Books.scss";
+@import "../src/styles/BookDetails.scss";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
